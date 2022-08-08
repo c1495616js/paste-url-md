@@ -4,23 +4,39 @@
 
 This extension is for easier to paste the url link on selected text in markdown file.
 
+## Usage
+
+You can change the default shortcut to whatever you like by editing the `Code > Preferences > Keyboard Shortcuts` (`File > Preferences > Keyboard Shortcuts on Windows`):
+
+```json
+[
+    {"key": "ctrl+cmd+p", "command": "paste-url-md.pasteUrl"}
+]
+```
+
 ## Following extension guidelines
 
 Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
-## Working with Markdown
+## Publish
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- add `repository` in `package.json`
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+```json
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  }
+}
+```
 
-## For more information
+- add file `LICENSE`
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
-**Enjoy!**
+## References
+
+- https://github.com/kukushi/PasteURL
