@@ -6,12 +6,17 @@ This extension is for easier to paste the url link on selected text in markdown 
 
 ## Usage
 
-- select the text
-  ![](img/2022-08-08-16-31-10.png)
-- copy the url
-  ![](img/2022-08-08-16-32-12.png)
-- hit `ctrl+cmd+p`
-  ![](img/2022-08-08-16-33-31.png)
+### select the text.
+
+![](img/2022-08-08-16-31-10.png)
+
+### copy the url
+
+![](img/2022-08-08-16-32-12.png)
+
+### hit `ctrl+cmd+p`
+
+![](img/2022-08-08-16-33-31.png)
 
 You can change the default shortcut to whatever you like by editing the `Code > Preferences > Keyboard Shortcuts` (`File > Preferences > Keyboard Shortcuts on Windows`):
 
