@@ -24,7 +24,13 @@
         "command": "paste-url-md.pasteUrl",
         "title": "Paste URL"
       }
-    ]
+    ],
+    "keybindings": [
+      {
+          "key": "ctrl+cmd+p",
+          "command": "paste-url-md.pasteUrl"
+      }
+  ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
