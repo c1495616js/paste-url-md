@@ -2,6 +2,8 @@
 
 ## Features
 
+![](img/showcase.gif)
+
 This extension is for easier to paste the url link on selected text in markdown file.
 
 ## Usage
