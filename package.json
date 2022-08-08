@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/c1495616js/paste-url-md"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -27,10 +27,10 @@
     ],
     "keybindings": [
       {
-          "key": "ctrl+cmd+p",
-          "command": "paste-url-md.pasteUrl"
+        "key": "ctrl+cmd+p",
+        "command": "paste-url-md.pasteUrl"
       }
-  ]
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
