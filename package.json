@@ -1,6 +1,7 @@
 {
   "name": "paste-url-md",
   "displayName": "paste-url-md",
+  "publisher": "c1495616js",
   "description": "Paste the link on markdown easier when select the test.",
   "version": "0.0.1",
   "engines": {
