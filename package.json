@@ -2,7 +2,7 @@
   "name": "paste-url-md",
   "displayName": "paste-url-md",
   "publisher": "c1495616js",
-  "icon": "image/extension-logo.png",
+  "icon": "img/extension-logo.png",
   "description": "Paste the link on markdown easier when select the test.",
   "repository": {
     "type": "git",
