@@ -4,6 +4,8 @@
 
 ![](img/showcase.gif)
 
+### Hit `ctrl+cmd+p`
+
 This extension is for easier to paste the url link on selected text in markdown file.
 
 ## Usage
